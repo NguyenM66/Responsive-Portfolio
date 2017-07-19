@@ -1,0 +1,332 @@
+
+/* Repeated Blocks */
+
+body {
+	margin: 0px;
+	padding: 0px;
+	width: 960px;
+	background-image: url("../images/concrete_seamless.png");
+}
+
+div.headerbox{
+	margin: 0px;
+	padding: 0px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 75px;
+	background-color: white;
+	border-bottom: solid #cccccc;
+	border-width: 3px;
+}
+
+div.header {
+	position: absolute;
+	bottom: 0px;
+	left: 175px;
+	width: 25%;
+	height: 60px;
+	background-color: #4aaaa5;
+	color:#ffffff;
+	font-family: 'Georgia';
+	font-size: 14px;
+	text-align: center;
+}
+
+div.pagelinks {
+	position: absolute;
+	bottom: 5px;
+	right: 275px;
+	width: 250px;
+	height: 35px;
+	font-family: sans-serif;
+	font-size: 15px;
+	text-align: center;
+}
+
+a.pagelinks {
+	color: #777777;
+	text-decoration: none;
+}
+
+div.connect {
+	position: fixed;
+	top: 125px;
+	right: 230px;
+	width: 270px;
+	height: 220px;
+	background-color: #ffffff;
+	border-color: #dddddd;
+}
+
+h3.connect {
+	position: absolute;
+	left: 10px;
+	top: 5px;
+	width: 90%;
+	height:50px;
+	border-bottom: solid #cccccc;
+	border-width: 2px;
+	color: #4aaaa5;
+	font-family: 'Georgia';
+	font-size: 25px;
+}
+
+div.imgbox {
+	position: absolute;
+	left: 35px;
+	bottom: 30px;
+	width: 200px;
+	height: 75px;
+}
+
+img.connect {
+	width:32%;
+}
+
+div.footer {
+	position: absolute;
+	bottom: 0%;
+	width: 100%;
+	height: 55px;
+	text-align: center;
+	line-height: 15px;
+	background-color: #666666;
+	color: #777777;
+	font-family: 'Georgia';4
+	font-size: 10px;
+	border-top: solid #4aaaa5;
+	border-width: 8px;
+}
+
+/* content indiviidual to index page */
+
+div.aboutme {
+	position: fixed;
+	top: 125px;
+	left: 175px;
+	width: 650px;
+	height: 500px;
+	background-color: white;
+}
+
+h2.aboutme {
+	position: absolute;
+	left: 20px;
+	top: 10px;
+	width: 90%;
+	height: 50px;
+	border-bottom: solid #cccccc;
+	border-width: 3px;
+	color: #4aaaa5;
+	font-family: 'Georgia';
+	font-size: 30px;
+}
+
+img.aboutpic {
+	border-right: 20px solid;
+	border-bottom: 10px solid;
+	border-color: #ffffff;
+	float: left;
+	width: 175px;
+	height: 175px;
+}
+
+
+div.bio {
+	position: absolute;
+	left: 20px;
+	top: 100px;
+	width: 90%;
+}
+
+p.bio {
+	color: #777777;
+	font-family: sans-serif; 
+	font-size: 16px;
+	line-height: 25px;
+}
+
+/* content indiviidual to contact page */
+
+div.contact {
+	position: fixed;
+	top: 125px;
+	left: 175px;
+	width: 650px;
+	height: 500px;
+	background-color: white;
+}
+
+h2.contact {
+	position: absolute;
+	left: 20px;
+	top: 10px;
+	width: 90%;
+	height: 50px;
+	border-bottom: solid #cccccc;
+	border-width: 3px;
+	color: #4aaaa5;
+	font-family: 'Georgia';
+	font-size: 30px;
+}
+
+
+div.form {
+	position: absolute;
+	left: 20px;
+	top: 100px;
+	width: 90%;
+}
+
+form.form {
+	color: #777777;
+	font-family: sans-serif; 
+
+}
+
+label.form {
+	font-size: 17px;
+}
+
+input.[type=text], select, textarea {
+	border: solid #777777;
+	width: 100%;
+	padding: 26px;
+	border: 1px solid #777777;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+	font-size: 15px;
+}
+
+input.name{
+	border: 1px solid #777777;
+	border-radius: 4px;
+	width: 100%;
+	height: 25px;
+	margin-bottom: 15px;	
+}
+
+input.email{
+	border: 1px solid #777777;
+    border-radius: 4px;
+	width: 100%;
+	height: 25px;
+	margin-bottom: 15px;	
+}
+
+textarea.message {
+	border: 1px solid #777777;
+	border-radius: 4px;
+	width: 100%;
+	height: 155px;
+	margin-bottom: 15px;	
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* content indiviidual to portfolio page */
+
+div.portfolio {
+	position: fixed;
+	top: 125px;
+	left: 175px;
+	width: 650px;
+	height: 700px;
+	background-color: white;
+}
+
+h2.portfolio {
+	position: absolute;
+	left: 20px;
+	top: 10px;
+	width: 90%;
+	height: 50px;
+	border-bottom: solid #cccccc;
+	border-width: 3px;
+	color: #4aaaa5;
+	font-family: 'Georgia';
+	font-size: 30px;
+}
+
+div.game1 {
+	position: absolute;
+	top: 125px;
+	left: 20px;
+	width: 200px;
+	height: 150px;
+}
+
+div.game2 {
+	position: absolute;
+	top: 125px;
+	right: 40px;
+	width: 200px;
+	height: 150px;
+}
+div.game3 {
+	position: absolute;
+	top: 315px;
+	left: 20px;
+	width: 200px;
+	height: 150px;
+}
+
+div.game4 {
+	position: absolute;
+	top: 315px;
+	right: 40px;
+	width: 200px;
+	height: 150px;
+}
+
+div.game5 {
+	position: absolute;
+	top: 505px;
+	left: 20px;
+	width: 200px;
+	height: 150px;
+}
+
+div.game {
+	position: absolute;
+	left: 20px;
+	top: 100px;
+	width: 90%;
+}
+
+img.game {
+	position: absolute;
+	top: -100px;
+	left: -20px;
+	width: 200px;
+	height: 150px;
+}
+
+p.title {
+	position: absolute;
+	top: -15px;
+	left: -20px;
+	width: 200px;
+	height: 40px;
+	background-color: #4aaaa5;
+	color:#ffffff;
+	font-family: 'Georgia';
+	font-size: 15px;
+	text-align: center;
+	line-height: 30px;
+}
