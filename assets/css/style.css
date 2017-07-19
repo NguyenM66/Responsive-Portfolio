@@ -330,3 +330,20 @@ p.title {
 	text-align: center;
 	line-height: 30px;
 }
+
+/*media queries*/
+
+/*about the width of desktop*/
+@media screen and (max-width: 980px) {
+
+}
+
+/*about the width of tablet*/
+@media screen and (max-width: 768px) {
+	
+}
+
+/*about the width of phone*/
+@media screen and (max-width: 640px) {
+	
+}
