@@ -1,349 +1,239 @@
-
-/* Repeated Blocks */
-
 body {
-	margin: 0px;
-	padding: 0px;
-	width: 960px;
-	background-image: url("../images/concrete_seamless.png");
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 34px;
+  color: #777;
+  background: url("../images/concrete_seamless.png");
 }
 
-div.headerbox{
-	margin: 0px;
-	padding: 0px;
-	position: fixed;
-	top: 0px;
-	width: 100%;
-	height: 75px;
-	background-color: white;
-	border-bottom: solid #cccccc;
-	border-width: 3px;
+* {
+  box-sizing: border-box;
 }
 
-div.header {
-	position: absolute;
-	bottom: 0px;
-	left: 175px;
-	width: 25%;
-	height: 60px;
-	background-color: #4aaaa5;
-	color:#ffffff;
-	font-family: 'Georgia';
-	font-size: 14px;
-	text-align: center;
+/* general */
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
 }
 
-div.pagelinks {
-	position: absolute;
-	bottom: 5px;
-	right: 275px;
-	width: 250px;
-	height: 35px;
-	font-family: sans-serif;
-	font-size: 15px;
-	text-align: center;
+h1,
+h2,
+h3,
+p {
+  margin-bottom: 20px;
 }
 
-a.pagelinks {
-	color: #777777;
-	text-decoration: none;
+p:last-child {
+  margin-bottom: 0;
 }
 
-div.connect {
-	position: fixed;
-	top: 125px;
-	right: 230px;
-	width: 270px;
-	height: 220px;
-	background-color: #ffffff;
-	border-color: #dddddd;
+h1,
+h2,
+h3 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  color: #4aaaa5;
 }
 
-h3.connect {
-	position: absolute;
-	left: 10px;
-	top: 5px;
-	width: 90%;
-	height:50px;
-	border-bottom: solid #cccccc;
-	border-width: 2px;
-	color: #4aaaa5;
-	font-family: 'Georgia';
-	font-size: 25px;
+h1 {
+  padding-bottom: 20px;
+  font-size: 30px;
+  line-height: 49px;
+  border-bottom: 3px solid #ddd;
 }
 
-div.imgbox {
-	position: absolute;
-	left: 35px;
-	bottom: 30px;
-	width: 200px;
-	height: 75px;
+h2,
+h3 {
+  font-size: 22px;
 }
 
-img.connect {
-	width:32%;
+/* header */
+
+#masthead {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  margin: 0 0 30px;
+  overflow: auto;
+  color: #fff;
+  background: #fff;
+  border-bottom: 2px solid #ccc;
 }
 
-div.footer {
-	position: absolute;
-	bottom: 0%;
-	width: 100%;
-	height: 55px;
-	text-align: center;
-	line-height: 15px;
-	background-color: #666666;
-	color: #777777;
-	font-family: 'Georgia';4
-	font-size: 10px;
-	border-top: solid #4aaaa5;
-	border-width: 8px;
+#logo {
+  float: left;
+  width: 250px;
+  height: 90px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 90px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  background: #4aaaa5;
 }
 
-/* content indiviidual to index page */
-
-div.aboutme {
-	position: fixed;
-	top: 125px;
-	left: 175px;
-	width: 650px;
-	height: 500px;
-	background-color: white;
+nav {
+  float: right;
+  margin-top: 25px;
 }
 
-h2.aboutme {
-	position: absolute;
-	left: 20px;
-	top: 10px;
-	width: 90%;
-	height: 50px;
-	border-bottom: solid #cccccc;
-	border-width: 3px;
-	color: #4aaaa5;
-	font-family: 'Georgia';
-	font-size: 30px;
+nav a {
+  display: inline-block;
+  padding-left: 15px;
+  margin-left: 15px;
+  line-height: 18px;
+  color: #999;
+  text-decoration: none;
+  border-left: 1px solid #efefef;
 }
 
-img.aboutpic {
-	border-right: 20px solid;
-	border-bottom: 10px solid;
-	border-color: #ffffff;
-	float: left;
-	width: 175px;
-	height: 175px;
+nav a:first-child {
+  border-left: 0 none;
 }
 
+/* footer */
 
-div.bio {
-	position: absolute;
-	left: 20px;
-	top: 100px;
-	width: 90%;
+footer {
+  padding: 30px 0;
+  clear: both;
+  font-size: 12px;
+  color: #fff;
+  color: #ccc;
+  text-align: center;
+  background: #666;
+  border-top: 8px solid #4aaaa5;
 }
 
-p.bio {
-	color: #777777;
-	font-family: sans-serif; 
-	font-size: 16px;
-	line-height: 25px;
+/* sidebar */
+
+.sidebar {
+  float: right;
+  width: 100%;
+  max-width: 270px;
+  padding: 30px;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
 }
 
-/* content indiviidual to contact page */
-
-div.contact {
-	position: fixed;
-	top: 125px;
-	left: 175px;
-	width: 650px;
-	height: 500px;
-	background-color: white;
+h3,
+.sidebar h2 {
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  line-height: 22px;
+  border-bottom: 2px solid #eee;
 }
 
-h2.contact {
-	position: absolute;
-	left: 20px;
-	top: 10px;
-	width: 90%;
-	height: 50px;
-	border-bottom: solid #cccccc;
-	border-width: 3px;
-	color: #4aaaa5;
-	font-family: 'Georgia';
-	font-size: 30px;
+.social {
+  width: 62px;
+  height: 62px;
+  margin-top: 8px;
+  margin-right: 5px;
 }
 
-
-div.form {
-	position: absolute;
-	left: 20px;
-	top: 100px;
-	width: 90%;
+.social:last-child {
+  margin-right: 0;
 }
 
-form.form {
-	color: #777777;
-	font-family: sans-serif; 
+/* main */
 
+#main-container {
+  padding-top: 130px;
 }
 
-label.form {
-	font-size: 17px;
+.main-section {
+  float: left;
+  width: 100%;
+  max-width: 650px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #fff;
+  border: 1px solid #ddd;
 }
 
-input.[type=text], select, textarea {
-	border: solid #777777;
-	width: 100%;
-	padding: 26px;
-	border: 1px solid #777777;
-	border-radius: 4px;
-	box-sizing: border-box;
-	margin-top: 6px;
-	margin-bottom: 16px;
-	resize: vertical;
-	font-size: 15px;
+/* portfolio page */
+
+.work {
+  position: relative;
+  float: left;
+  width: 274px;
+  margin: 20px 0 25px;
+  overflow: auto;
 }
 
-input.name{
-	border: 1px solid #777777;
-	border-radius: 4px;
-	width: 100%;
-	height: 25px;
-	margin-bottom: 15px;	
+.work:nth-child(even) {
+  margin-right: 40px;
 }
 
-input.email{
-	border: 1px solid #777777;
-    border-radius: 4px;
-	width: 100%;
-	height: 25px;
-	margin-bottom: 15px;	
+.work img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
 }
 
-textarea.message {
-	border: 1px solid #777777;
-	border-radius: 4px;
-	width: 100%;
-	height: 155px;
-	margin-bottom: 15px;	
+.work h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
+
+.auth-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
+/* contact page */
+
+#contact-form ul {
+  margin-bottom: 20px;
+}
+
+#contact-form li {
+  margin-bottom: 10px;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+
+textarea {
+  height: 200px;
 }
 
 input[type=submit] {
-    background-color: #4aaaa5;
-    color: #ffffff;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-input[type=submit]:hover {
-    background-color: #45a049;
-}
-
-/* content indiviidual to portfolio page */
-
-div.portfolio {
-	position: fixed;
-	top: 125px;
-	left: 175px;
-	width: 650px;
-	height: 700px;
-	background-color: white;
-}
-
-h2.portfolio {
-	position: absolute;
-	left: 20px;
-	top: 10px;
-	width: 90%;
-	height: 50px;
-	border-bottom: solid #cccccc;
-	border-width: 3px;
-	color: #4aaaa5;
-	font-family: 'Georgia';
-	font-size: 30px;
-}
-
-div.game1 {
-	position: absolute;
-	top: 125px;
-	left: 20px;
-	width: 200px;
-	height: 150px;
-}
-
-div.game2 {
-	position: absolute;
-	top: 125px;
-	right: 40px;
-	width: 200px;
-	height: 150px;
-}
-div.game3 {
-	position: absolute;
-	top: 315px;
-	left: 20px;
-	width: 200px;
-	height: 150px;
-}
-
-div.game4 {
-	position: absolute;
-	top: 315px;
-	right: 40px;
-	width: 200px;
-	height: 150px;
-}
-
-div.game5 {
-	position: absolute;
-	top: 505px;
-	left: 20px;
-	width: 200px;
-	height: 150px;
-}
-
-div.game {
-	position: absolute;
-	left: 20px;
-	top: 100px;
-	width: 90%;
-}
-
-img.game {
-	position: absolute;
-	top: -100px;
-	left: -20px;
-	width: 200px;
-	height: 150px;
-}
-
-p.title {
-	position: absolute;
-	top: -15px;
-	left: -20px;
-	width: 200px;
-	height: 40px;
-	background-color: #4aaaa5;
-	color:#ffffff;
-	font-family: 'Georgia';
-	font-size: 15px;
-	text-align: center;
-	line-height: 30px;
-}
-
-/*media queries*/
-
-/*about the width of desktop*/
-@media screen and (max-width: 980px) {
-
-}
-
-/*about the width of tablet*/
-@media screen and (max-width: 768px) {
-	
-}
-
-/*about the width of phone*/
-@media screen and (max-width: 640px) {
-	
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  background: #4aaaa5;
+  border: 0 none;
 }
