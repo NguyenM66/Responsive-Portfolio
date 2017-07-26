@@ -11,7 +11,6 @@
 /* For mobile phones: */
 [class*="col-"] {
     width: 100%;
-    border: 2px solid black;
 }
 
 h1, h2, h3, nav {
@@ -24,20 +23,6 @@ h1, h2, h3, nav {
 }
 
 .sidebar {
-    border: 2px solid black;
-    margin: auto;
-}
-
-.main-section {
-    border: 2px solid black;  
-}
-
-.worklinks {
-    border: 2px solid black;
-    margin: auto;
-}
-.work {
-    border: 2px solid black;
     margin: auto;
 }
 
