@@ -45,8 +45,7 @@ h1 {
   border-bottom: 3px solid #ddd;
 }
 
-h2,
-h3 {
+h2, h3 {
   font-size: 22px;
 }
 
@@ -112,7 +111,6 @@ footer {
 /* sidebar */
 
 .sidebar {
-  float: right;
   width: 100%;
   max-width: 270px;
   padding: 30px;
@@ -147,11 +145,9 @@ h3,
 }
 
 .main-section {
-  float: left;
-  width: 100%;
-  max-width: 650px;
+  width: 90%;
   padding: 30px;
-  margin: 0 0 40px;
+  margin-left: 5%;
   background: #fff;
   border: 1px solid #ddd;
 }
