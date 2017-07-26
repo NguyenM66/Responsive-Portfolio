@@ -11,6 +11,7 @@
 /* For mobile phones: */
 [class*="col-"] {
     width: 100%;
+    border: 2px solid black;
 }
 
 h1, h2, h3, nav {
@@ -29,6 +30,15 @@ h1, h2, h3, nav {
 
 .main-section {
     border: 2px solid black;  
+}
+
+.worklinks {
+    border: 2px solid black;
+    margin: auto;
+}
+.work {
+    border: 2px solid black;
+    margin: auto;
 }
 
 @media only screen and (min-width: 641px) {
